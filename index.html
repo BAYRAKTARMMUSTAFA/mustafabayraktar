@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAYRAKTAR</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">BAYRAKTAR</div>
+        <span class="menubtn" onclick="openNav">&#9776;</span>
+
+        <div class="navLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+    
+            </ul>
+        </div>
+    </nav>
+    <div class="sideNav" id="sidenav">
+        <a href="#" class="clodeBtn" onclick="closeNav">&#10006;</a>
+        <a href="menu.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="row">
+        <div class="column1">
+            <h1>WEB DESİNG</h1>
+            <p>Let's design your web design to grow your business or make it easier</p>
+        </div>
+        <div class="column2">
+           
+            <img src="images-removebg-preview.png" alt="banner"  width="900px"/>
+        </div>
+    </div>
+    <script>
+        function openNav(){
+            document.getElementById("sidenav").style.width
+            = "50%"
+        }
+        function closeNav(){
+            document.getElementById("sidenav").style.width
+            = "0%"
+        }
+    </script>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html>
